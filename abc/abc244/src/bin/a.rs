@@ -1,3 +1,11 @@
+use proconio::input;
+use proconio::marker::Chars;
+
 fn main() {
-    todo!();
+    input! {
+        n: usize,
+        s: Chars,
+    }
+
+    println!("{}", s[n - 1]);
 }
